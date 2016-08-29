@@ -1,0 +1,88 @@
+<html>
+
+<head>
+
+<link rel="stylesheet" href="css/P_RegFormstyle.css">
+<link rel="stylesheet" href="css/P_RegStyle1.css">
+<title> </title>
+</head>
+<body>
+<section class="container">
+
+<div class="form-style-10">
+<div class="header"><h1>Registration Form</h1></div>
+<form action="registration.jsp">
+    <div class="section"><span>1</span></div>
+    
+    <div class="inner-wrap">
+                <label>First Name<input type="text" name="firstname" /></label>
+		<label>Last Name<input type="text" name="lastname" /></label>
+		<label>Username<input type="text" name="username" /></label>
+		<label>Password<input type="password" name="password" /></label>
+		<label>Email Address <input type="email" name="email" /></label>
+    </div>
+
+    <div class="inner-wrap">
+       <h4> <label>  Time of work  </label></h4>
+        <label><input type="checkbox" name="tow" value="morning" />  Morning </label>
+        <label><input type="checkbox" name="tow" value="afternoon" />  After Noon </label>
+       <label><input type="checkbox" name="tow" value="evening" />  Evening </label>
+       
+		
+		
+        
+    </div>
+
+    <div class="inner-wrap">
+        <h3><label>Speciality </label></h3>
+        <label><input type="checkbox" name="spec" value="light" />  Small House repair and fixing(Fan, tubelight, Switch/wire/fuse/doorbell etc) </label>
+        <label><input type="checkbox" name="spec" value="medium" />  AC/Cooler and other heavy appliances repair </label>
+        <label><input type="checkbox" name="spec" value="heavy" />  Complete house repair </label>
+
+        <label><input type="checkbox" name="spec" value="ON" />  Others </label><br>
+        
+        </div>
+    <div class="inner-wrap">
+        <label>Experience  </label>
+            <label><input type="checkbox" name="exp" value="low" />  less than 5 years </label>
+            <label><input type="checkbox" name="exp" value="high" />  more than 5 years </label><br>
+           
+         </div>   
+    
+    <div class="inner-wrap">
+            <label> Area of work </label>
+            <label><input type="checkbox" name="aow" value="101" />  Rohini </label>
+            <label><input type="checkbox" name="aow" value="102" />  Geeta Colony </label>
+            <label><input type="checkbox" name="aow" value="103" />  Shalimar Bagh </label>
+            <label><input type="checkbox" name="aow" value="104" />  Rani Bagh </label>
+            
+        
+        
+    </div>
+
+
+
+    <div class="section"><span>2</span></div>
+    <div class="inner-wrap">
+        
+		<label>Mailing Address <input type="text" name="address" /></label>
+		
+		<label>State<input type="text" name="state" /></label>
+        <label>Post code<input type="text" name="postcode" /></label>
+        
+		<label>Phone Number <input type="text" name="phone" /></label>
+       
+    </div>
+	
+	  <div class="button-section">
+     <input type="submit" name="submit" value="SUBMIT">
+	 
+	      
+    </div>
+    
+    
+</form>
+</div>
+</section >
+</body>
+<html>
